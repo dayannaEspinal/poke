@@ -82,7 +82,7 @@ const PokemonCard = (
                 {types.map((typeName) => (
                   <span
                     key={typeName}
-                    className={`text-xs px-3 py-1 rounded-full text-white font-semibold bg-gradient-to-r ${
+                    className={`text-xs px-3 py-1 rounded-full text-white font-semibold bg-gradient-to-br ${
                       headerTypeColor[typeName] ?? 'from-green-400 to-green-700'
                     }`}
                   >
